@@ -1,0 +1,31 @@
+# Environment & Secrets
+.env
+*.env
+**/.env
+**/.env.*
+!**/.env.example
+
+# Python
+.venv/
+**/.venv/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+*.db
+backend/recipes.db
+
+# Node / Frontend
+node_modules/
+**/node_modules/
+dist/
+**/dist/
+.oxlintrc.json
+frontend/.oxlintrc.json
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log
